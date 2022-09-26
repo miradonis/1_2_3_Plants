@@ -1,0 +1,186 @@
+/*
+COLORS
+white
+black 
+rgb(217, 217, 217) 
+rgb(176, 176, 176) 
+#3A3B4A 
+rgb(211, 211, 211)
+*/
+
+
+
+@font-face {
+    font-family: Fredericka;
+    src: url("../fonts/Fredericka_the_Great/FrederickatheGreat-Regular.ttf");
+}
+
+@font-face {
+    font-family: Open-Sans;
+    src: url("../fonts/Open_Sans/OpenSans-VariableFont_wdth\,wght.ttf");
+}
+
+/* generelle angaben für den body oder html oder was auch immer!!!!!!!!!! */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+/* erste section mit backgrpund image, hover bei button und nav */
+.img__text__list{
+    height: 100vh;
+    background-image: url("../img/Lev3_2_css-einführung_box-model_img.jpeg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.img__text__list h1 {
+    font-family: Fredericka;
+    color: white;
+    font-size: 35px;
+    margin: 0 0 0 160px;
+    padding-top: 30px;
+}
+
+.h2__text {
+    width: 300px;
+    margin: 200px auto 0 auto;
+    text-align: center;
+}
+
+.h2__text h2 {
+    font-family: Fredericka;
+    color: white;
+    font-size: 30px;
+    text-align: center;
+}
+
+.img__text__list .h2__text p {
+    font-family: Open-sans;
+    color: white;
+    margin: 30px 0 10px 0;
+}
+
+.btn__infos {
+    padding: 7px 35px;
+    background-color: black;
+    font-family: Open-Sans;
+    color: white;
+    border: 1px solid white;
+}
+
+.btn__infos:hover {
+    background-color: white;
+    color: black;
+}
+
+.nav__list {
+    font-family: Open-Sans, sans-serif;
+    text-align: right;
+    margin: 150px 150px 0 0;
+}
+
+.nav__list li {
+    margin-bottom: 25px;
+}
+
+.nav__list li a {
+    text-decoration: none;
+    color: rgb(217, 217, 217);
+}
+
+.nav__list li a:hover {
+    text-decoration: underline;
+    color: rgb(176, 176, 176);
+}
+/* ------------erste section ende------------ */
+
+/* zweite section mit beschreibung und kontaktdaten */
+.description__btn {
+    margin-top: 30px;
+}
+
+.description__btn h2 {
+    text-align: center;
+    font-family: Fredericka;
+    font-size: 25px;
+    word-spacing: 5px;
+}
+
+.description {
+    width: 500px;
+    text-align: center;
+    margin: 40px auto;
+    font-family: Open-Sans;
+    letter-spacing: 1px;
+}
+
+.contact__phoneNumber {
+    width: 170px;
+    border: 5px double black;
+    margin: 0 auto 0 auto;
+    text-align: center;
+}
+
+.contact__phoneNumber p {
+    margin: 10px;
+}
+
+.phone_number:hover {
+    text-decoration: underline;
+}
+
+/* footer - button - wegbeschreibung - nav für infos wie agb, impressum faq */
+footer {
+    margin-top: 140px;
+    width: 100vw;
+    background-color: #3A3B4A;
+}
+
+article {
+    width: 700px;
+    padding-left: 40px;
+}
+
+footer p {
+    color: white;
+    font-family: Open-Sans;
+    padding: 20px 0 0 0;
+}
+
+.btn__findUs {
+    margin: 20px 0 0 0;
+    padding: 5px 35px;
+    background-color: #3A3B4A;
+    color: white;
+    border: .5px solid white;
+}
+
+.btn__findUs:hover {
+    background-color: white;
+    color: #3A3B4A;
+}
+
+footer nav {
+    text-align: right;
+    margin-right: 40px;
+}
+
+footer nav ul li {
+    display: inline-block;
+    margin: 0 30px 20px 0;
+}
+
+footer nav ul li a {
+    color: white;
+    font-family: Open-Sans;
+    text-decoration: none;
+}
+
+footer nav ul li a:hover {
+    text-decoration: underline;
+    color: rgb(211, 211, 211);
+}
